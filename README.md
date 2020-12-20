@@ -17,13 +17,11 @@ The return calculation is a simple percentage increase of the stock's closing pr
 #### Stock Performance
 2017 and 2018 were very different years in terms of stock performance - 2017 delivered average returns of 67.3% while 2018 returned an average loss of 8.5% across our twelve stock portfolio.  There are countless contributing factors to these results, namely the "stacking" effect of year-over-year returns that result from comparing two complete years independently.  That said, two stocks managed to deliver consecutive years of positive returns - ENPH and RUN.   ENPH was clearly the top performing stock with 129.5% returns in 2017 followed by 81.9% returns in 2018.  RUN, while not quite as strong, delivered 5.5% and 84.0% returns in 2017 and 2018, respectively.
 
--- insert 2017 and 2018 tables
-
 DQ - the focus of our initial investment research - had the highest returns in 2017 with 199.4% growth.  This performance was noticed by more than our friend's parents as DQ's total volume grew by 201.4% year-over-year, the largest growth among our twelve stocks.  
 
 Depending on our advisees' investment strategy, a two-year return could be a more valuable analysis than single year returns.  Conversely, if they are more active investors, there are shorter periods of time within 2017 and 2018 that delivered higher rates of return.
 
--- insert 2-year graph.
+![VBA_Challenge_2year.png](https://github.com/benclark62/stock-analysis/blob/main/Resources/VBA_Challenge_2yearGraph.png)
 
 #### Code Refactoring
 As the size of the data set grew to include more stocks, it became important to refactor our *AllStocksAnalysis* macro to improve efficiency and ensure consistent performance.  There were three primary changes made to refactor the code:
@@ -39,10 +37,10 @@ As the size of the data set grew to include more stocks, it became important to 
 
 Refactoring the code improved run times by ~81% compared to the original code. 
 
---insert 2018 run time
+![VBA_Challenge_2018.png](https://github.com/benclark62/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png)
 *2018 execution improved from 0.658 seconds to 0.121 seconds*
 
---insert 2017 run time
+![VBA_Challenge_2017.png](https://github.com/benclark62/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png)
 *2017 execution improved from 0.666 seconds to 0.117 seconds* 
 
 ### Summary 
