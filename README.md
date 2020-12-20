@@ -7,7 +7,7 @@ Our challenge was to leverage Microsoft Excel VBA to develop Macros that will en
 
 Key data provided includes **stock ticker symbol**, **trading date**, **closing price**, and **daily volume**.
 
--- insert image --
+![VBA_Sample_Data]https://github.com/benclark62/stock-analysis/blob/main/Resources/VBA_Challenge_SampleData.png
 
 The return calculation is a simple percentage increase of the stock's closing price between the first observed closing price and the last.
 
