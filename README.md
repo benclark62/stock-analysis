@@ -1,7 +1,7 @@
 # stock-analysis
 ## Module 2 - VBA
 
-### Overview of Project: Explain the purpose of this analysis.
+### Overview of Project 
 
 Our challenge was to leverage Microsoft Excel VBA to develop Macros that will enable us to quickly analyze large datasets to determine how well a stock performed during a given period of time. Using two years' worth of daily stock information, the primary metric to idenfity high- and low-performing stocks is their in-year return.  Understanding how the frequency with which a stock is traded (Total Daily Volume) and percentage increase in price over the course of a year will be valuable inputs to making an informed investing decision.  Our initial analysis focused on a single stock - Daqo (DQ) - as our friend's parents were interested in purchasing shares.  To assist their investing decision, we broadened our analysis to include twelve total stocks.  As we expanded our analysis to include additional data, we refactored our VBA code to improve its efficiency, allowing it to process the larger dataset more quickly.
 
@@ -13,7 +13,7 @@ The return calculation is a simple percentage increase of the stock's closing pr
 
 > Return % for stock (i) = tickerEndingPrice(i) / tickerStartingPrice(i) - 1 
 
-### Results: Using images and examples of your code
+### Results 
 #### Stock Performance
 2017 and 2018 were very different years in terms of stock performance - 2017 delivered average returns of 67.3% while 2018 returned an average loss of 8.5% across our twelve stock portfolio.  There are countless contributing factors to these results, namely the "stacking" effect of year-over-year returns that result from comparing two complete years independently.  That said, two stocks managed to deliver consecutive years of positive returns - ENPH and RUN.   ENPH was clearly the top performing stock with 129.5% returns in 2017 followed by 81.9% returns in 2018.  RUN, while not quite as strong, delivered 5.5% and 84.0% returns in 2017 and 2018, respectively.
 
@@ -45,7 +45,7 @@ Refactoring the code improved run times by ~81% compared to the original code.
 --insert 2017 run time
 *2017 execution improved from 0.666 seconds to 0.117 seconds* 
 
-### Summary: Address the following questions.
+### Summary 
 #### What are the advantages or disadvantages of refactoring code?
 Refactoring results in much faster script execution and more efficient code that is capable of handling larger datasets. The act of refactoring improves the user's understanding of the code's intricacies which imroves trouble-shooting and debugging and ultimately makes the user a more proficient coder over time. 
 
