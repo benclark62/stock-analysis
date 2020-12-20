@@ -1,5 +1,5 @@
 # stock-analysis
-##Module 2 - VBA
+## Module 2 - VBA
 
 ### Overview of Project: Explain the purpose of this analysis.
 
