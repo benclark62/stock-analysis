@@ -30,9 +30,11 @@ As the size of the data set grew to include more stocks, it became important to 
 
 - Created a *tickerIndex* to eliminate the need to looop through all tickers in individual calulations for tickerVolume, tickerEndingPrice and tickerStartingPrice. 
 - Created three output arrays based on the tickerIndex.  These were previously generated as part of a larger loop through all of the tickers.
-> tickerVolumes(12)
-> tickerStartingPrices(12)
-> tickerEndingPrices(12)
+>> tickerVolumes(12)
+
+>> tickerStartingPrices(12)
+
+>> tickerEndingPrices(12)
 - Loop and stored all tickers to intialize totalVolume = 0 first rather than keeping that calculation in a singler, larger loop. Separating this action contributed to improved efficiency for the entire macro.
 
 Refactoring the code improved run times by ~81% compared to the original code. 
